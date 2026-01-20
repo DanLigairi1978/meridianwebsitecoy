@@ -22,21 +22,21 @@ const AboutPage: React.FC = () => {
 
                 <InfoCard 
                     title="Our Mission" 
-                    image="https://picsum.photos/800/600?random=2"
+                    image="https://images.unsplash.com/photo-1616424365738-9cb5b7019782?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 >
                     To empower Community Based Tourism (CBT) and rural projects by providing the high-quality online presence and management tools they often lack.
                 </InfoCard>
 
                 <InfoCard 
                     title="Our Vision" 
-                    image="https://picsum.photos/800/600?random=3"
+                    image="https://images.unsplash.com/photo-1595624216386-4330895a0921?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 >
                     Acting as a digital bridge that connects traditional Fijian wisdom with modern commerce to facilitate economic growth within local villages.
                 </InfoCard>
 
                 <InfoCard 
                     title="Our Ethos" 
-                    image="https://picsum.photos/800/600?random=4"
+                    image="https://images.unsplash.com/photo-1579483324542-a73a9b9597a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 >
                     Operating in good faith to contribute our skills and resources toward the success of local entrepreneurs, fostering a sustainable and prosperous community.
                 </InfoCard>

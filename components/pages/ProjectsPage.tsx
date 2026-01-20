@@ -64,7 +64,7 @@ const ProjectsPage: React.FC = () => {
                         "Dynamic pricing capabilities"
                     ]}
                     purpose="To showcase culturally-rich, eco-friendly tours like the Waisali Nature Experience and Baleyaga Trail."
-                    image="https://picsum.photos/800/700?random=5"
+                    image="https://images.unsplash.com/photo-1627938031589-5f8a2c27079b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 />
 
                 <ProjectCard
@@ -76,7 +76,7 @@ const ProjectsPage: React.FC = () => {
                         "AI Farm & Tour Planner powered by Google's Gemini AI.",
                         "Marine Safety integrating live weather and wind data."
                     ]}
-                    image="https://picsum.photos/800/700?random=6"
+                    image="https://images.unsplash.com/photo-1528823793742-c1bf5a22830f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     reverse={true}
                 />
             </div>

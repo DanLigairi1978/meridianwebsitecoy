@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
             <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center text-center text-white overflow-hidden">
                 <div 
                     className="absolute inset-0 bg-cover bg-center" 
-                    style={{ backgroundImage: "url('https://picsum.photos/1600/900?random=1&grayscale&blur=2')" }}
+                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1548000392-T390f1a450e1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
                 ></div>
                 <div className="absolute inset-0 bg-brand-dark/70"></div>
                 <div className="relative z-10 p-6">
