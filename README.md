@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Meridian Solutions (Fiji) Ltd. - Website
 
-# Run and deploy your AI Studio app
+This is a static website built with React and Tailwind CSS, designed for deployment on static hosting platforms like GitHub Pages.
 
-This contains everything you need to run your app locally.
+## Deployment to GitHub Pages
 
-View your app in AI Studio: https://ai.studio/apps/drive/1HYcaS0PzEh1tDBk3Q6yYiVbknq9KukjS
+This project is configured to be deployed directly to GitHub Pages without any build step.
 
-## Run Locally
+1.  **Create a GitHub Repository:**
+    *   Create a new public repository on your GitHub account. Do **not** initialize it with a README, .gitignore, or license.
 
-**Prerequisites:**  Node.js
+2.  **Push the Code:**
+    *   Navigate to your local project directory.
+    *   Initialize a git repository, add the remote, and push the code.
+    ```bash
+    # Make sure you are in the project root directory
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git branch -M main
+    git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+    git push -u origin main
+    ```
+    *Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your actual GitHub username and repository name.*
 
+3.  **Configure GitHub Pages:**
+    *   In your repository on GitHub, go to **Settings > Pages**.
+    *   Under "Build and deployment", select the source as **Deploy from a branch**.
+    *   Set the branch to `main` and the folder to `/(root)`.
+    *   Click **Save**.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+4.  **Done!**
+    *   Your site will be deployed in a few minutes. You can find the URL in the same GitHub Pages settings section. It will be something like `https://YOUR_USERNAME.github.io/YOUR_REPOSITORY/`.
+
+## Development
+
+This project uses CDN-hosted libraries and does not require a local installation of Node.js or any package manager. To run it locally, you can use a simple static file server.
+
+If you have Python installed:
+```bash
+# For Python 3
+python3 -m http.server
+```
+
+If you have VS Code, you can use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
